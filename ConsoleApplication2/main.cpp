@@ -37,6 +37,7 @@ void AskForDifficulty()
 {
 	FString Response;
 	std::cout << "Write a number between 1 and 9, in order to select a specific hidden word.\n";
+    std::cout << "The difficulty increases as the number does. \n";
 	std::getline(std::cin, BCGame.GetHiddenWordArray);
 	//std::cout << "Can you guess the " << BCGame.GetHiddenWordLength();
     //std::cout << " letter isogram I'm thinking of?\n";
